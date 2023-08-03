@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a312f41-cfa0-4ce4-a9c6-31aef6369a26" name="Changes" comment="">
+    <list default="true" id="8a312f41-cfa0-4ce4-a9c6-31aef6369a26" name="Changes" comment="First">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/api/CommonApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/ChangingUserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/ChangingUserData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/CreateOrderAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/CreateOrderAPITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/CreateUserAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/CreateUserAPITest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/GetUserOrdersAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/GetUserOrdersAPITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/UserLoginAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/UserLoginAPITest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +148,14 @@
       <option name="presentableId" value="Default" />
       <updated>1690911350871</updated>
     </task>
+    <task id="LOCAL-00001" summary="First">
+      <created>1691091562590</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691091562590</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,5 +168,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First" />
+    <option name="LAST_COMMIT_MESSAGE" value="First" />
   </component>
 </project>

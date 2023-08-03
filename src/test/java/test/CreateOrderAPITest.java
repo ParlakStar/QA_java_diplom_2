@@ -39,7 +39,6 @@ public class CreateOrderAPITest {
                 .body("user.name", is("Unique User"))
                 .extract()
                 .path("accessToken");
-        System.out.println("Access Token2: " + accessToken);//ПРоверка получения токена
     }
 
     @Test
