@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a312f41-cfa0-4ce4-a9c6-31aef6369a26" name="Changes" comment="First">
+    <list default="true" id="8a312f41-cfa0-4ce4-a9c6-31aef6369a26" name="Changes" comment="Final">
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/ChangeUserData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/CommonApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/CreateOrderAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/CreateOrderAPITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/GetUserOrdersAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/GetUserOrdersAPITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/ChangingUserData.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,37 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/alex_/QA_java_diplom_2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.test in QA_java_diplom_2">
+  <component name="RunManager" selected="JUnit.test in QA_java_diplom_2 (1)">
+    <configuration name="ChangeUserData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA_java_diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ChangeUserData" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChangingUserData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA_java_diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ChangingUserData" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreateOrderAPITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_java_diplom_2" />
       <extension name="coverage">
@@ -68,49 +96,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateOrderAPITest.testCreateOrderWithoutAuthorization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test in QA_java_diplom_2 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_java_diplom_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.CreateOrderAPITest" />
-      <option name="METHOD_NAME" value="testCreateOrderWithoutAuthorization" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QA_java_diplom_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.SimpleTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleTest.testCreateOrderWithoutAuthorization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QA_java_diplom_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.SimpleTest" />
-      <option name="METHOD_NAME" value="testCreateOrderWithoutAuthorization" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.test in QA_java_diplom_2 (1)" />
+        <item itemvalue="JUnit.ChangeUserData" />
+        <item itemvalue="JUnit.ChangingUserData" />
         <item itemvalue="JUnit.test in QA_java_diplom_2" />
         <item itemvalue="JUnit.CreateOrderAPITest" />
-        <item itemvalue="JUnit.SimpleTest.testCreateOrderWithoutAuthorization" />
-        <item itemvalue="JUnit.SimpleTest" />
-        <item itemvalue="JUnit.CreateOrderAPITest.testCreateOrderWithoutAuthorization" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691091562590</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Final">
+      <created>1691093149898</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691093149898</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +167,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First" />
-    <option name="LAST_COMMIT_MESSAGE" value="First" />
+    <MESSAGE value="Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final" />
   </component>
 </project>
