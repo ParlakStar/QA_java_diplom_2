@@ -5,7 +5,7 @@ import io.restassured.http.Header;
 import org.junit.*;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
-
+import io.qameta.allure.Description;
 public class CreateOrderAPITest {
     private static String accessToken;
 
@@ -41,6 +41,7 @@ public class CreateOrderAPITest {
                 .path("accessToken");
     }
 
+    @Description("Описание вашего теста здесь")
     @Test
     public void testCreateOrderWithAuthorizationAndIngredients() {
         RestAssured.basePath = "/api/orders"; // Устанавливаем базовый путь на "/api/orders"
@@ -57,7 +58,7 @@ public class CreateOrderAPITest {
                 .body("order.number", notNullValue());
         RestAssured.basePath = "/api/auth";
     }
-
+    @Description("Описание вашего теста здесь")
     @Test
     public void testCreateOrderWithoutIngredients() {
         RestAssured.basePath = "/api/orders"; // Устанавливаем базовый путь на "/api/orders"
@@ -73,7 +74,7 @@ public class CreateOrderAPITest {
                 .body("message", is("Ingredient ids must be provided"));
         RestAssured.basePath = "/api/auth"; // Возвращаем базовый путь на "/api/auth" для других тестов
     }
-
+    @Description("Описание вашего теста здесь")
     @Test
     public void testCreateOrderWithInvalidIngredientHash() {
         RestAssured.basePath = "/api/orders"; // Устанавливаем базовый путь на "/api/orders"
@@ -88,6 +89,7 @@ public class CreateOrderAPITest {
                 .log().body();
         RestAssured.basePath = "/api/auth"; // Возвращаем базовый путь на "/api/auth" для других тестов
     }
+    @Description("Описание вашего теста здесь")
     @Test
     public void testCreateOrderWithoutAuthorization() {
         RestAssured.basePath = "/api/orders";

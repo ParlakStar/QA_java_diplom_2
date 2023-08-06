@@ -1,4 +1,5 @@
 package test;
+import io.qameta.allure.Description;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.http.Header;
@@ -43,7 +44,7 @@ public class CreateUserAPITest {
                 .extract()
                 .path("accessToken");
         }
-
+    @Description("Описание вашего теста здесь")
     @Test
     public void testUserExists() {
         // Проверяем, что пользователь успешно создан и можем получить информацию о нем с помощью запроса /user
@@ -57,6 +58,7 @@ public class CreateUserAPITest {
                 .body("user.email", is("uniqueuser1@test.com"))
                 .body("user.name", is("Unique User"));
     }
+    @Description("Описание вашего теста здесь")
     @Test
     public void testCreateAlreadyRegisteredUser() {
         // Создаем пользователя, которого мы уже создали в методе setUp()
@@ -69,6 +71,7 @@ public class CreateUserAPITest {
                 .statusCode(403) // Ожидаем статус код 400 (Bad Request), так как пользователь уже существует
                 .body("success", is(false));
     }
+    @Description("Описание вашего теста здесь")
     @Test
     public void testCreateUserWithMissingField() {
         // Создаем пользователя без указания обязательного поля "name"

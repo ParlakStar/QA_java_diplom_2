@@ -1,4 +1,5 @@
 package test;
+import io.qameta.allure.Description;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.http.Header;
@@ -43,6 +44,7 @@ public class UserLoginAPITest {
                 .extract()
                 .path("accessToken");
         }
+    @Description("Описание вашего теста здесь")
     @Test
     public void testLoginWithValidCredentials() {
         given()
@@ -56,7 +58,7 @@ public class UserLoginAPITest {
                 .body("user.email", is("uniqueuser1@test.com"))
                 .body("user.name", is("Unique User"));
     }
-
+    @Description("Описание вашего теста здесь")
     @Test
     public void testLoginWithInvalidCredentials() {
         given()
@@ -68,7 +70,7 @@ public class UserLoginAPITest {
                 .statusCode(401) // Несанкционированный код состояния, так как попытка входа не удалась
                 .body("success", is(false));
     }
-
+    @Description("Описание вашего теста здесь")
     @Test
     public void testLoginWithChangedCredentials() {
         // Предположим, вы изменили адрес электронной почты или пароль.

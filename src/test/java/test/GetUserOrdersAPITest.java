@@ -1,4 +1,5 @@
 package test;
+import io.qameta.allure.Description;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.http.Header;
@@ -42,7 +43,7 @@ public class GetUserOrdersAPITest {
                 .extract()
                 .path("accessToken");
     }
-
+    @Description("Описание вашего теста здесь")
     @Test
     public void testGetUserOrdersWithAuthorization() {
         RestAssured.basePath = "/api/orders"; // Устанавливаем базовый путь на "/api/orders"
@@ -60,6 +61,7 @@ public class GetUserOrdersAPITest {
                 .log().body();
         RestAssured.basePath = "/api/auth"; // Возвращаем базовый путь на "/api/auth" для других тестов
     }
+    @Description("Описание вашего теста здесь")
     @Test
     public void testGetUserOrdersWithoutAuthorization() {
         RestAssured.basePath = "/api/orders"; // Устанавливаем базовый путь на "/api/orders"

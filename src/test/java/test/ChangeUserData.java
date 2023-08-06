@@ -1,11 +1,10 @@
 package test;
 
+import io.qameta.allure.Description;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.http.Header;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 import static org.hamcrest.Matchers.is;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -20,6 +19,7 @@ public class ChangeUserData {
         RestAssured.basePath = "/api/auth";
 
         // Создаем пользователя
+
         given()
                 .contentType(ContentType.JSON)
                 .body("{\"email\":\"uniqueuser1@test.com\",\"password\":\"test123\",\"name\":\"Unique User\"}")
@@ -45,6 +45,7 @@ public class ChangeUserData {
                 .extract()
                 .path("accessToken");
     }
+    @Description("Описание вашего теста здесь")
     @Test
     public void testUpdateUserDataWithAuthorization() {
         given()
@@ -59,7 +60,7 @@ public class ChangeUserData {
                 .body("user.email", is(changedEmail))
                 .body("user.name", is(changedName));
     }
-
+    @Description("Описание вашего теста здесь")
     @Test
     public void testUpdateUserDataWithoutAuthorization() {
         given()
