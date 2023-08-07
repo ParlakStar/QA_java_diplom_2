@@ -29,8 +29,7 @@ public class CreateInvalidHashTest {
                 .when()
                 .post("/")
                 .then()
-                .statusCode(500)
-                .log().all();
+                .statusCode(500);
 
 
         UserAPI.deleteUser(accessToken);
