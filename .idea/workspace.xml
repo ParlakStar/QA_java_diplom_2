@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a312f41-cfa0-4ce4-a9c6-31aef6369a26" name="Changes" comment="Final">
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/ChangeUserDataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/CreateInvalidHashTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/api/OrderAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/api/UserAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/ChangeUserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/ChangeUserData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/ChangeUserData.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/CreateOrderAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/CreateOrderAPITest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/CreateUserAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/CreateUserAPITest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/GetUserOrdersAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/GetUserOrdersAPITest.java" afterDir="false" />
@@ -51,17 +54,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/alex_/QA-java-diplom-1&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/alex_/Downloads/Новая папка/QA_java_diplom_2-main",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.test in QA_java_diplom_2 (1)">
-    <configuration name="ChangeUserData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.test in QA_java_diplom_2">
+    <configuration name="CreateInvalidHashTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_java_diplom_2" />
       <extension name="coverage">
         <pattern>
@@ -70,13 +78,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ChangeUserData" />
+      <option name="MAIN_CLASS_NAME" value="test.CreateInvalidHashTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChangingUserData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateInvalidHashTest.testCreateOrderWithInvalidIngredientHash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_java_diplom_2" />
       <extension name="coverage">
         <pattern>
@@ -85,13 +93,30 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ChangingUserData" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="test.CreateInvalidHashTest" />
+      <option name="METHOD_NAME" value="testCreateOrderWithInvalidIngredientHash" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateOrderAPITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateInvalidHash.testCreateOrderWithInvalidIngredientHash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA_java_diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.CreateInvalidHash" />
+      <option name="METHOD_NAME" value="testCreateOrderWithInvalidIngredientHash" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateOrderAPITest.testCreateOrderWithInvalidIngredientHash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_java_diplom_2" />
       <extension name="coverage">
         <pattern>
@@ -101,12 +126,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.CreateOrderAPITest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testCreateOrderWithInvalidIngredientHash" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test in QA_java_diplom_2 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test in QA_java_diplom_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_java_diplom_2" />
       <option name="TEST_OBJECT" value="directory" />
       <dir value="$PROJECT_DIR$/src/test/java/test" />
@@ -114,27 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test in QA_java_diplom_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QA_java_diplom_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.test in QA_java_diplom_2 (1)" />
-        <item itemvalue="JUnit.ChangeUserData" />
-        <item itemvalue="JUnit.ChangingUserData" />
         <item itemvalue="JUnit.test in QA_java_diplom_2" />
-        <item itemvalue="JUnit.CreateOrderAPITest" />
+        <item itemvalue="JUnit.CreateInvalidHashTest" />
+        <item itemvalue="JUnit.CreateInvalidHashTest.testCreateOrderWithInvalidIngredientHash" />
+        <item itemvalue="JUnit.CreateInvalidHash.testCreateOrderWithInvalidIngredientHash" />
+        <item itemvalue="JUnit.CreateOrderAPITest.testCreateOrderWithInvalidIngredientHash" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691140891878</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Final">
+      <created>1691331531977</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691331531977</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
