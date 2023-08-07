@@ -18,7 +18,6 @@ public class OrderAPI {
                 .header("Authorization", accessToken)
                 .contentType(ContentType.JSON)
                 .body(requestBody)
-                .log().all()
                 .when()
                 .post("/")
                 .then()

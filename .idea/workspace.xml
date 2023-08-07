@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a312f41-cfa0-4ce4-a9c6-31aef6369a26" name="Changes" comment="Final">
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/ChangeUserDataTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/CreateInvalidHashTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/api/OrderAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/api/UserAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/ChangeUserData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/CreateOrderAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/CreateOrderAPITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/CreateUserAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/CreateUserAPITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/GetUserOrdersAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/GetUserOrdersAPITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/UserLoginAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/UserLoginAPITest.java" afterDir="false" />
-    </list>
+    <list default="true" id="8a312f41-cfa0-4ce4-a9c6-31aef6369a26" name="Changes" comment="Lots of edits" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691331531977</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lots of edits">
+      <created>1691448114220</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691448114220</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,6 +200,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First" />
     <MESSAGE value="Final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final" />
+    <MESSAGE value="Lots of edits" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lots of edits" />
   </component>
 </project>
