@@ -1,0 +1,22 @@
+Index: src/test/java/api/CommonApi.java
+===================================================================
+diff --git a/src/test/java/api/CommonApi.java b/src/test/java/api/CommonApi.java
+deleted file mode 100644
+--- a/src/test/java/api/CommonApi.java	(revision 18b1bd4cb1029c872bca1f5786a8d2132a64c4ab)
++++ /dev/null	(revision 18b1bd4cb1029c872bca1f5786a8d2132a64c4ab)
+@@ -1,2 +0,0 @@
+-package api;public class CommonApi {
+-}
+Index: src/main/java/org/example/Main.java
+===================================================================
+diff --git a/src/main/java/org/example/Main.java b/src/main/java/org/example/Main.java
+deleted file mode 100644
+--- a/src/main/java/org/example/Main.java	(revision 18b1bd4cb1029c872bca1f5786a8d2132a64c4ab)
++++ /dev/null	(revision 18b1bd4cb1029c872bca1f5786a8d2132a64c4ab)
+@@ -1,5 +0,0 @@
+-package org.example;public class Main {
+-    public static void main(String[] args) {
+-        System.out.println("Hello world!");
+-    }
+-}
+\ No newline at end of file
